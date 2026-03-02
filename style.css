@@ -1,10 +1,25 @@
 body{
     margin: 0;
     background: darkgray;
-    text-align: center;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#save_btns{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    cursor: pointer;
 }
 
 #myCanvas{
     background: lightgray;
 }
+
+/* #networkCanvas{
+    background: black;
+} */
